@@ -1,0 +1,27 @@
+.transactionTable {
+  width: 200px;
+  border-collapse: collapse;
+  margin: 0 auto;
+   margin-top: 30px;
+  margin-bottom: 30px;
+  width: 744px;
+  height: 368px;
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+  min-width: 200px;
+}
+
+.transactionTable th {
+  background-color: #131313;
+  text-align: center;
+  color: #fff;
+}
+
+.transactionTable tr:nth-child(2n + 1) {
+  background-color: #a8a8a8;
+}
