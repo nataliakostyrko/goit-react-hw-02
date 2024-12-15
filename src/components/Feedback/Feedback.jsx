@@ -3,7 +3,7 @@ import css from "./Feedback.module.css";
 
 const Feedback = ({ feedback, positiveFeedback, totalFeedback }) => {
   return (
-    <ul className={css.flexFeedback}>
+    <ul className={css.containerFeedback}>
       <li>Good: {feedback.good}</li>
       <li>Neutral: {feedback.neutral}</li>
       <li>Bad: {feedback.bad}</li>
